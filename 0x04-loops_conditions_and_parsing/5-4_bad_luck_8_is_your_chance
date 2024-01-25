@@ -9,10 +9,10 @@ total=0
  do
 	 if [ $total -eq 3 ]
 	 then
-		 echo "Bad luck"
+		 echo "bad luck"
 	 elif [ $total -eq 7 ]
 	 then
-		 echo "Good luck"
+		 echo "good luck"
 	 else
 		 echo "Best School"
 	 fi
