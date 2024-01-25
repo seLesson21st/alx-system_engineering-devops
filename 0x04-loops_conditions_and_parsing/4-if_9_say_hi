@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# The script displays "Best School" using a while loop 10 times
+# but Hi on the 9th iteration
+
+total=0
+
+while [ $total -lt 10 ]
+do
+	if [ $total -eq 9 ]
+	then
+		echo "Hi"
+	fi
+	echo "Best School"
+	(( total ++ ))
+done
